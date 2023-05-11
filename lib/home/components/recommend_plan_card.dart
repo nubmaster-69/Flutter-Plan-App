@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../constants.dart';
+import '../../constants.dart';
 
-class RecomendPlanCard extends StatelessWidget {
-  const RecomendPlanCard(
+class RecommendPlanCard extends StatelessWidget {
+  const RecommendPlanCard(
       {Key? key,
       required this.size,
       required this.image,

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:plan_app/constants.dart';
 
-import 'widgets/body.dart';
+import 'components/body.dart';
+import 'components/bottom_navigation.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -15,6 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        title: const Text("Plan App"),
         elevation: 0,
         leading: IconButton(
           icon: const Icon(
@@ -25,7 +27,8 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         backgroundColor: primaryColor,
       ),
-      body: const Body(),
+      body: Body(),
+      bottomNavigationBar: const BottomNavigation(),
     );
   }
 }

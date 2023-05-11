@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../constants.dart';
+import '../../constants.dart';
 import 'title_custom_underscore.dart';
 
 class TitleWithMoreButton extends StatelessWidget {
